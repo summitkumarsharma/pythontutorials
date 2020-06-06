@@ -1,0 +1,7 @@
+To write to an existing file, you must add a parameter to the open()function
+1.a - Append - will append to the end of the file 
+2.w - Write - will overwrite any existing content
+3.r - open the file in read mode - default mode 
+4.w - open the file in write mode
+5.x - create file if not exits
+End of file
