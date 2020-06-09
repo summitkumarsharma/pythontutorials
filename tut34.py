@@ -37,16 +37,18 @@ def fibonacci(n):
     elif n == 2:
         return 1
     else:
+        # result = []
+        # return result.append(fibonacci(n - 1) + fibonacci(n - 2))
         return fibonacci(n - 1) + fibonacci(n - 2)
 
 
 number = int(input("Enter then number\n"))
 # print("Factorial Using Iterative Method", factorial_iterative(number))
 # print("Factorial Using Recursive Method", factorial_recursive(number))
-j = 0
-for j in range(2, number):
-    print("Fibonacci series- ", j, fibonacci(number))
-
+# j = 0
+# for j in range(2, number):
+#     print("Fibonacci series- ", j, fibonacci(number))
+print("Fibonacci series- ", fibonacci(number))
 
 
 
